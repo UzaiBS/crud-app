@@ -2,11 +2,11 @@
 // includes/db.php
 
 //$host = 'localhost'; // O la IP de tu servidor de base de datos
-$host = 'appwebconbds.azurewebsites.net';
+$host = 'appwebcondbs-servidor.mysql.database.azure.com';
 //$db = 'crud_db';
-$db = 'appwebconbds-database';
-$user = 'root'; // Tu usuario de MySQL
-$pass = 'Wb$dZlXKuZgudS2I'; // Tu contraseña de MySQL
+$db = 'appwebconbds_db';
+$user = 'roots'; // Tu usuario de MySQL
+$pass = 'Tempo@1234'; // Tu contraseña de MySQL
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
