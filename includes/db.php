@@ -4,7 +4,7 @@
 //$host = 'localhost'; // O la IP de tu servidor de base de datos
 $host = 'appwebcondbs-servidor.mysql.database.azure.com';
 //$db = 'crud_db';
-$db = 'appwebconbds_db';
+$db = 'appwebcondbs_db';
 $user = 'roots'; // Tu usuario de MySQL
 $pass = 'Tempo@1234'; // Tu contraseña de MySQL
 $charset = 'utf8mb4';
