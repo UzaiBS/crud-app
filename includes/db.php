@@ -1,14 +1,10 @@
 <?php
 // includes/db.php
 
-//$host = 'appwebcondbs-servidor.mysql.database.azure.com';
-$host = $_ENV['DB_HOST'];
-//$db = 'appwebcondbs_db';
-$db = $_ENV['DB_NAME'];
-//$user = 'roots'; // Tu usuario de MySQL
-$user = $_ENV['DB_USER'];
-//$pass = 'Tempo@1234'; // Tu contraseña de MySQL
-$pass = $_ENV['DB_PASS'];
+$host = getenv('DB_HOST');
+$db = getenv('DB_NAME');
+$user = getenv('DB_USER');
+$pass = getenv('DB_PASS');
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
